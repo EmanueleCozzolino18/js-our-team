@@ -34,6 +34,18 @@ const team = [
         name: 'Barbara Ramos',
         role: 'Grapihc Designer',
         image: 'barbara-ramos-graphic-designer.jpg'
-    },
-]
+    }
+];
 
+console.log(team);
+
+// Eseguo ciclo sul array per prendere gli elementi
+for (let i = 0; i < team.length; i++) {
+
+    const info = team[i];
+
+    // stampo gli oggetti del array
+    console.log('Name:', info.name);
+    console.log('Role:', info.role);
+    console.log('Image:', info.image);
+}
